@@ -1,9 +1,9 @@
 {
-  "name": "hello-service-angular",
+  "name": "hello-application-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 8080",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
