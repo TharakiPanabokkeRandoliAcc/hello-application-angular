@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 8080",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "build": "ng build --port 8080",
+    "test": "ng test --port 8080",
+    "lint": "ng lint --port 8080",
+    "e2e": "ng e2e --port 8080"
   },
   "private": true,
   "dependencies": {
